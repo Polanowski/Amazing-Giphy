@@ -38,8 +38,8 @@ $(document).on('click','.searchButton', function(){
                 searchDiv.append(image);
                 $('#searches').append(searchDiv);
             }
-        });
-});
+        })
+})
 
 $('#addSearch').on('click', function(){
     var newSearch = $('input').eq(0).val();
